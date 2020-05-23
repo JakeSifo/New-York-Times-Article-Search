@@ -1,0 +1,1 @@
+https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${keyWord}&facet=true&begin_date=${bDate}&end_date=${eDate}&&api-key=${apiKey}
