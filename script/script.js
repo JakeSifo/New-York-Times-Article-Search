@@ -1,8 +1,8 @@
 $("button").on("click", function() {
     // In this case, the "this" keyword refers to the button that was clicked
-    var keyWord = $(this).attr("data-key");
-    var sDate = $(this).attr("data-start");
-    var eDate = $(this).attr("data-end");
+    var keyWord = $("#search-term")[0].value;    
+    var sDate = $("#start-year")[0].value;
+    var eDate = $("#end-year")[0].value;;
 
     var apiKey = "aJadpGbHZlCyvRMfkCC8GR7aK0zTxHAB";
     // Constructing a URL to search Giphy for the name of the person who said the quote
